@@ -4,11 +4,19 @@
 	box-sizing: border-box;
 }
 
-@media all and (min-width: 90%) {
-	.morning-pic img {
+@media all and (min-width: 1200px) {
+	body {
+		background: url(../img/landscape.jpg) no-repeat;
 		display: flex;
 		justify-content: center;
-		flex-direction: column;
+		flex-direction: row;
 		align-items: flex-end;
 	}
-}
+
+	/*.morning {		
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		align-items: flex-end;
+	}
+}*/
