@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media all and (min-width: 90%) {
+	.morning-pic img {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+}
